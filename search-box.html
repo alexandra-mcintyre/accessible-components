@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Box Accessibility Case Study</title>
+    <link rel="stylesheet" href="webpage.css">
+</head>
+<body>
+
+    <header>
+        <h1>Searching for Accessibility: A Study on Search Box Usability Across Platforms</h1>
+    </header>
+
+    <section>
+        <h2>Search Box Usage on Different Platforms:</h2>
+
+        <div class="website">
+            <h3>Aritzia.com</h4>
+                <img src="images/aritzia_com.png" alt="Aritzia.com homepage">
+            <p><strong>Default:</strong> <img src="images/aritzia_default.png" alt="Aritzia search box default state"></p>
+            <p><strong>Hover:</strong> <img src="images/aritzia_hover.png" alt="Aritzia search box hover state"></p>
+            <p><strong>Clicked:</strong> <img src="images/aritzia_clicked.png" alt="Aritzia search box clicked state"></p>
+        </div>
+
+        <div class="website">
+            <h3>Gmail.com</h4>
+                <img src="images/gmail_com.png" alt="Gmail.com homepage">
+            <p><strong>Default:</strong> <img src="images/gmail_default.png" alt="Gmail search box default state"></p>
+            <p><strong>Hover:</strong> <img src="images/gmail_hover.png" alt="Gmail search box hover state"></p>
+            <p><strong>Clicked:</strong> <img src="images/gmail_clicked.png" alt="Gmail search box clicked state"></p>
+        </div>
+
+        <div class="website">
+            <h3>Etsy.com</h4>
+                <img src="images/etsy_com.png" alt="Etsy.com homepage">
+            <p><strong>Default:</strong> <img src="images/etsy_default.png" alt="Etsy search box default state"></p>
+            <p><strong>Hover:</strong> <img src="images/etsy_hover.png" alt="Etsy search box hover state"></p>
+            <p><strong>Clicked:</strong> <img src="images/etsy_clicked.png" alt="Etsy search box clicked state"></p>
+        </div>
+    </section>
+
+    <section>
+        <h2>Inputs</h2>
+        <table>
+            <tr>
+                <th></th>
+                <th>Aritzia</th>
+                <th>Gmail</th>
+                <th>Etsy</th>
+            </tr>
+            <tr>
+                <th>Mouse/Touchpad</th>
+                <td>
+                    <ul>
+                        <li>Clicking the search icon performs the search as well as pressing the return key</li>
+                        <li>You can click the X button to clear your search (only appears when there's text in the search bar)</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>You can click the search icon to perform the search </li>
+                        <li>If the search icon is clicked with no text in the search bar it deselects the search bar</li>
+                        <li>Clicking the search bar shows previous searches</li>
+                        <li>X button exists to clear your search</li>
+                        <li>Clicking elsewhere on the page deselects the search bar</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>X button appears to clear search once typing begins</li>
+                        <li>If search icon is pressed with nothing in the search bar it just refreshes the page</li>
+                        <li>Clicking elsewhere on the page deselects the search bar</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <th>Keyboard</th>
+                <td>
+                    <ul>
+                        <li>If you just start typing without selecting the search bar it will enter the search bar automatically</li>
+                        <li>Hitting esc while typing saves the text but deselects the search bar</li>
+                        <li>Holding down an arrow key deletes your text and autofills the search bar with trending searches</li>
+                        <li>The website starts searching through the product catalog even before the search is entered</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>Clicking esc while typing saves your text but deselects the search bar</li>
+                        <li>Pressing the down arrow while typing highlights different potential results for your search</li>
+                        <li>If you type without selecting it won’t go into the search bar</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>If you type without selecting it won’t go into the search bar</li>
+                        <li>Pressing esc while typing doesn’t deselect the search bar</li>
+                        <li>Pressing tab while typing switches the select from the search bar to the link to the website (the safari search page)</li>
+                        <li>The esc button deselects the search bar</li>
+                        <li>The arrow keys autofill the search bar with recommended searches</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <th>Touch</th>
+                <td>
+                    <ul>
+                        <li>On a mobile device, entering the search bar opens a new search page</li> 
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>On mobile device, there is no search icon for the search bar</li>
+                        <li>It also opens a whole new page</li>
+                        <li>Microphone option appears on mobile device for voice search</li>
+                    </ul>
+                </td>
+                 <td>
+                    <ul>
+                        <li>Search bar looks similar on mobile device</li>
+                        <li>Does not open a new page</li>
+                        <li>2 X buttons exist right next to each other, one to clear your text, and another to exit search mode</li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+    </section>
+
+    <section>
+        <h2>Outputs</h2>
+        <table>
+            <tr>
+                <th></th>
+                <th>Aritzia</th>
+                <th>Gmail</th>
+                <th>Etsy</th>
+            </tr>
+            <tr>
+                <th>Mouse/Touchpad</th>
+                <td>
+                    <ul>
+                        <li>Hovering over the search bar highlights a larger part of the screen - very clear</li>
+                        <li>Hovering over search shows previous searches and boosted items</li>
+                        <li>Clicking elsewhere on the page deselects the search bar</li>
+                        <li>Most accessible due to the clear change in state from selected to not selected</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>Nothing happens when you hover over the search bar</li>
+                        <li>Hovering over the search icon presents a popup that says "search"</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>Hovering over the search bar highlights the search icon</li>
+                        <li>Clicking the search bar shows recommended searches</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <th>Keyboard</th>
+                <td>
+                    <ul>
+                        <li>Focus order: The first tab click selects the search bar</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>Focus order: The search bar is the second thing selected when Tab is pressed (the first is the main menu)</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>Focus order: The search bar is the third thing selected when Tab is pressed to navigate the page</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <th>Touch</th>
+                   <td>
+                    <ul>
+                        <li>Very intuitive how to navigate in and out of search bar</li>
+                        <li>Very clear when the search bar is entered since it is a new page</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>Search bar is always present - you don’t have to find an icon to click first</li>
+                    </ul>
+                </td>
+                  <td>
+                    <ul>
+                        <li>Search bar does not open a new page</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <th> Screen Reader</th>
+                    <td>
+                    <ul>
+                        <li>"Search, edit text, search"</li>
+                        <li>When search is performed, screen reader goes back to the promotions banner, then to the main menu, then to search results</li>
+                        <li>It does not inform the user that what it is reading is the search results</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>Description is "Search mail menu pop-up edit text"</li>
+                        <li>When search is entered, voiceover reads "search results web content" and gives the user the option to see results as the next focus</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>Describes search bar as "Search for items or shops, Search for anything"</li>
+                        <li>When Tab is pressed after entering the search bar, it focuses on the search button and just says "search"</li>
+                        <li>Could be confusing which is the search bar and which is the enter button</li>
+                        <li>When search is entered, voiceover resets and starts reading from the website menu</li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+    </section>
+
+    <section>
+        <h3>State Models in Gmail</h3>
+        <h4>Search Box Component: Keyboard User</h4>
+            <img src="images/keyboard_initial.jpg" alt="State model for a keyboard user">
+        <h4>Search Box Component: Mouse User</h4>
+            <img src="images/mouse_initial.jpg" alt="State model for a mouse user">
+    </section>
+    <section>
+        <h3>Revised Copies:</h3>
+        <h4>Keyboard User</h4>
+            <img src="images/keyboard_edited.jpg" alt="Revised state model for a keyboard user">
+            <p>Key Changes:</p>
+            <ul>
+                <li>Allows the search box to be activated just by typing any letters</li>
+            </ul>
+        <h4>Mouse User</h4>
+            <img src="images/mouse_edited.jpg" alt="Revised state model for a mouse user">
+            <p>Key Changes:</p>
+            <ul>
+                <li>Added state change when the box is in hover mode </li>
+                <li>Once search box is activated, if mouse leaves the search box it reverts to focus mode, where no suggested search results appear and the search box has to be reclicked in order to initiate another search.</li>
+            </ul>
+            <h4>User Tradeoff:</h4>
+            <li>If mouse user types by accident it is harder to deselect the search box and change focus</li>
+    </section>
+
+    <section>
+        <h3>Redesign of Gmail's Search Box</h3>
+        <img src="images/figma_redesign.png" alt="Redesign of Gmail's search box, hover state">
+    </section>
+
+    <section>
+        <div class="reflection">
+        <h3>Reflection</h3>
+        <ul>
+            <li>
+            The search boxes I observed did well in terms of accessibility because all were pretty clear to 
+            navigate as a mouse, keyboard, screen reader, and mobile device user. I especially liked Aritzia’s 
+            use of color contrast and instant search features, and I plan on integrating the hover-state color contrast in my design.
+            </li>
+            <li>
+            An accessibility consideration that already existed in the gmail application but was not mentioned 
+            in the video was the voice-to-text option on the search bar, which would benefit people who maybe 
+            only had a mouse and not a keyboard, or were learning the English language and have trouble spelling. 
+            </li>
+            <li>
+            The change I made to allow for the search box to be activated by any typing of letters solves the mismatch 
+            of keyboard users who have trouble navigating the screen quickly using the tab key, or just want to search 
+            immediately without having to navigate the whole page.
+            </li>
+            <li>
+            In the case of gmail’s search box, it is especially accessible in the context of its screen reader compatibility
+            –when the search bar is focused, the screen reader says “search mail”, and after a search is conducted, it 
+            automatically reads “search results web content” and gives the user the option to see the results as the next focus. 
+            This differs from the other two pages I analysed, where after the search is conducted, the screen reader resets its
+             focus to the main menu, and does not recognize the content shown as results of a search. This functionality for 
+             gmail is very beneficial for blind and visually impaired users because it follows the logical order of what a user 
+             would expect after searching for mail. However, one aspect where it falls short in terms of accessibility is the lack 
+             of a state change when a mouse is hovered over the search bar. The buttons of the page all change color when hovered, 
+             and if the search box does not follow this trend it might be difficult for users with poor vision to know where their 
+             mouse pointer is. 
+            </li>
+            <li>
+            Between all four users, mouse users are the most commonly prioritized when creating components, but this can lead 
+            to accessibility gaps for the other users because developers might overlook proper aria labels for screen readers, 
+            or forget to optimize the look of their pages for mobile users.
+            </li>
+        </ul>
+        </div>
+    </section>
+
+</body>
+</html>

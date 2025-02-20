@@ -1,1 +1,136 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background: linear-gradient(135deg, #dfe9f3, #ffffff);
+    color: #333;
+}
 
+p {
+    color: #BD1E51;  
+    font-size: 19px;
+    line-height: 1.8;
+}
+
+
+/* Header */
+header {
+    background: linear-gradient(90deg, #265791, #0073e6);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 0 0 15px 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    font-size: 2em;
+    letter-spacing: 1px;
+}
+
+/* Sections */
+section {
+    background-color: white;
+    padding: 25px;
+    border-left: 8px solid #F1B814;
+    margin: 30px auto;
+    max-width: 850px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease-in-out;
+}
+
+section:hover {
+    transform: scale(1.02);
+}
+
+/* Headings */
+h2{
+    color: #BD1E51;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 25px;
+    color: #265791;
+    font-weight: bold;
+} 
+
+h4 {
+    font-size: 19px;
+    color: #BD1E51;
+    font-weight: bold;
+}
+
+/* Website Analysis */
+.website {
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.website:hover {
+    background-color: #fffcf3;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background: #004c99;
+    color: white;
+    font-size: 1.1em;
+    text-transform: uppercase;
+}
+
+td {
+    border-bottom: 1px solid #ddd;
+    font-size: 15px 
+}
+
+tr:nth-child(even) {
+    background-color: #f2f7fc;
+}
+
+tr:hover {
+    background-color: #fef8e7;
+}
+
+
+/* Images */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 12px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+img:hover {
+    transform: scale(1.05);
+}
+
+.reflection {
+    font-size: 16px
+} 
+
+.reflection li {
+    line-height: 1.6;
+}
